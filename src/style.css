@@ -2,7 +2,7 @@ body {
 	/* Удаление отступов, подключение и настройка основных шрифтов */
 	margin: 0;
 	font-size: 14px;
-	color: #6c7279;
+	background: gray;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -27,12 +27,12 @@ p {
 
 .container {
 	width: 100%; /* Если ширина контента меньше нижнего пункта, тогда контент занимает 100% от ширины экрана */
-	max-width: 1200px; /* Максимальная ширина всего контента */
+	max-width: 1180px; /* Максимальная ширина всего контента */
 	margin: 0 auto; /* Выравнивание по центру весь контент */
 	padding: 0 15px; /* Отступ чтобы контент не прилипал к краю экрана */
 }
 
-/* @font-face {
+@font-face {
 	font-family: 'NextArt Light';
 	src: url(/public/fonts/NEXT\ ART_Light.otf) format('otf');
 	font-weight: 200;
@@ -60,4 +60,4 @@ p {
 	font-family: 'NextArt heavy';
 	src: url(/public/fonts/NEXT\ ART_Heavy.otf) format('otf');
 	font-weight: 900;
-} */
+}
