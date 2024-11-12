@@ -31,7 +31,7 @@ export default {
 
     .header__nav--item {
         margin-right: 24px;
-        font-size: clamp(14px, 5vh, 18px);
+        font-size: clamp(14px, 5vw, 18px);
         color: #FDFDFD;
     }
 
