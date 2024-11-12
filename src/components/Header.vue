@@ -10,7 +10,7 @@
                     <a class="header__nav--item" href="#">Стоимость</a>
                     <a class="header__nav--item" href="#">Блог</a>
                     <a class="header__nav--item" href="#">Контакты</a>
-                    <button class="header__nav--btn">Консультация</button>
+                    <a class="header__nav--btn">Консультация</a>
                 </nav>
             </section>
         </div>
