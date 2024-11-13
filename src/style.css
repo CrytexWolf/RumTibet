@@ -1,9 +1,15 @@
-body {
+html, body {
 	/* Удаление отступов, подключение и настройка основных шрифтов */
+	height: 100%;
 	margin: 0;
 	font-family: "Nunito Sans", sans-serif;
 	font-size: 14px;
+	color: #FDFDFD;
 	-webkit-font-smoothing: antialiased;
+}
+
+#app {
+	height: 100%;
 }
 
 *,
@@ -27,6 +33,7 @@ p {
 
 a {
 	text-decoration: none;
+	color: #FDFDFD;
 }
 
 .container {
@@ -64,4 +71,10 @@ a {
 	font-family: 'NextArt heavy';
 	src: url(/public/fonts/NEXT\ ART_Heavy.otf) format('otf');
 	font-weight: 900;
+}
+
+/* ROOT */
+
+:root {
+	--border-10: 10px;
 }
