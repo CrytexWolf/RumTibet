@@ -12,6 +12,9 @@
                     <a class="header__nav--item" href="#">Контакты</a>
                     <a class="header__nav--btn">Консультация</a>
                 </nav>
+                <button class="burger-menu">
+                    <span class="burger-item"></span>
+                </button>
             </section>
         </div>
     </header>
@@ -58,6 +61,42 @@ export default {
         width: 157px;
         height: 44px;
         background-color: #1A3E3E;
+    }
+
+    .burger-menu {
+        display: none;
+        padding: 9px 2px;
+        background: none;
+        border: 0;
+        cursor: pointer;
+    }
+    .burger-item {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+
+        font-size: 0;
+        color: transparent;
+
+        position: relative;
+    }
+    .burger-item::before,
+    .burger-item::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+        z-index: 1;
+    }
+    .burger-item::before {
+        top: -8px;
+    }
+    .burger-item::after {
+        bottom: -8px;
     }
 
 </style>
