@@ -99,4 +99,14 @@ export default {
         bottom: -8px;
     }
 
+    @media (max-width: 1010px) {
+        .header__nav {
+            display: none;
+        }
+
+        .burger-menu {
+            display: flex;
+        }
+    }
+
 </style>

@@ -64,15 +64,17 @@
         background-color: rgb(255, 255, 255, 0.2);
         padding: 40px;
         border-radius: 10px;
+        flex-wrap: wrap;
     }
 
     .intro__input--block {
         display: flex;
         flex-direction: column;
+        width: 25%;
     }
 
     .intro__input {
-        width: 270px;
+        width: 100%;
         height: 52px;
 
         border-radius: var(--border-10);
@@ -104,4 +106,14 @@
         border-radius: var(--border-10);
     }
 
+    @media (max-width: 1060px) {
+        .intro__input--block {
+            width: 45%;
+            margin-bottom: 10px;
+        }
+
+        .intro__btn {
+            width: 45%;
+        }
+    }
 </style>
