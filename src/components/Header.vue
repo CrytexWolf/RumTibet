@@ -99,6 +99,19 @@ export default {
         bottom: -8px;
     }
 
+    .burger--active {
+        background-color: transparent;
+        transition: all 0.3s;
+    }
+    .burger--active::before {
+        transform: rotate(-45deg);
+        top: 0;
+    }
+    .burger--active::after {
+        transform: rotate(45deg);
+        bottom: 0;
+    }
+
     @media (max-width: 1010px) {
         .header__nav {
             display: none;
